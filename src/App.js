@@ -13,9 +13,11 @@ class App extends Component {
         <header className="app__header" />
         <main className="app__main">
           <div className="searchBox">
-            <p className="displayText">PlaceHolder</p>
-            <input placeholder="London Weather" className="searchBar" />
+            {/* <p className="displayText">PlaceHolder</p> */}
+            <input placeholder="Type In City Name" className="searchBar" />
+            <button className="findWeather">Find weather</button>
           </div>
+
           <div className="mainDisplay">
             <img src="http://placekitten.com/g/200/300" />
             <p>Overcast clouds</p>

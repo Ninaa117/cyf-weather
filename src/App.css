@@ -22,20 +22,30 @@
 .searchBox {
   display: flex;
   flex-direction: row;
-  background-color: rgb(127, 204, 255);
+  background-color: rgb(121, 121, 255);
   width: 100%;
-  height: 20vh;
+  height: 10vh;
 }
 
 .searchBar {
   height: 20px;
   align-self: center;
+  background-color: rgb(121, 121, 255);
+  color: white;
+}
+
+.findWeather {
+   height: 20px;
+  align-self: center;
+  background-color: rgb(121, 121, 255);
+margin: 60px;
 }
 
 .displayText {
   align-self: center;
   margin-left: 30px;
   margin-right: 100px;
+  
 }
 
 
