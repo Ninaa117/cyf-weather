@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import storm from "./img/weather-icons/storm.svg";
 
 class App extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class App extends Component {
           </div>
 
           <div className="mainDisplay">
-            <img src="http://placekitten.com/g/200/300" />
+            <img src={storm} alt="storm icon" className="centerImage"/>
             <p>Overcast clouds</p>
             <p>Humidity 78%</p>
             <p>More stuff</p>
