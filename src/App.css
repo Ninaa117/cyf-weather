@@ -4,7 +4,7 @@
   transition: background-color 1s ease-in;
   background-color: lightblue;
 }
-/*
+/* 
 .app__header, 
 .app__main {
   width: 100%;
@@ -59,6 +59,7 @@ margin: 60px;
   display: flex; 
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 /* Current weather */
