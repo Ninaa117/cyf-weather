@@ -15,6 +15,7 @@ class App extends Component {
         <header className="app__header">
         </header>
         <main className="app__main">
+        <h1>Nina Weather App </h1>
         </main>
       </div>
     );
