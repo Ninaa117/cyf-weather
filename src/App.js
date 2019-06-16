@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
-
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
   }
 
-  render () {
+  render() {
     return (
       <div className="app">
-        <header className="app__header">
-        </header>
+        <header className="app__header" />
         <main className="app__main">
-        <h1>Nina Weather App </h1>
+          <div className="searchBox">
+            <p className="displayText">PlaceHolder</p>
+            <input placeholder="London Weather" className="searchBar" />
+          </div>
+          <div className="mainDisplay">
+            <img src="http://placekitten.com/g/200/300" />
+            <p>Overcast clouds</p>
+            <p>Humidity 78%</p>
+            <p>More stuff</p>
+          </div>
         </main>
       </div>
     );
